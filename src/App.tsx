@@ -1,11 +1,15 @@
-import React from 'react'
-import { TextInput } from './inputText/InputText'
-import { SimpleForm } from './giftlist/yup/Yup1'
+import { SimpleForm } from './giftlist/yup/Yup'
+ import { ToastContainer } from 'react-toastify';
+import State from './teste/state';
 
 
 const App = () => {
   return (
-    <><SimpleForm/></>
+    <>
+    {/* <SimpleForm/> */}
+    {/* <ToastContainer/> */}
+    <State/>
+    </>
   )
 }
 
